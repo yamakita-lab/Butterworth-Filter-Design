@@ -27,6 +27,9 @@
  
  */
 
+#ifndef _BUTTERWORTH_H
+#define _BUTTERWORTH_H
+
 
 #include "Biquad.h"
 
@@ -116,3 +119,4 @@ private:
     double * ba;
 };
 
+#endif
