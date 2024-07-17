@@ -83,6 +83,8 @@ void BiquadChain::allocate(int count){
 
 BiquadChain::BiquadChain() : numFilters(0){
 }
+BiquadChain::~BiquadChain(){
+}
 
 
 BiquadChain::BiquadChain(int count){
