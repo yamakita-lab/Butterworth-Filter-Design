@@ -102,6 +102,8 @@ void BiquadChain::reset(){
     
     _xn1 = 0;
     _xn2 = 0;
+    xn3 = 0;
+    xn4 = 0;
     
     for(int i = 0; i < numFilters; i++){
         _yn[i] = 0;
